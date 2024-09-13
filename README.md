@@ -93,9 +93,9 @@ curl --location --request POST 'http://0.0.0.0:8080/api/jobToIPC' --header 'Cont
 ```
 
 response:
-'''
+```
 Message received! 
-'''
+```
 
 
 ###### send job to socket to other ip
