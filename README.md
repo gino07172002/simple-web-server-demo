@@ -32,7 +32,7 @@ there are three program here, a main demo server and additional 2 program ( ipc 
 all of them can directly use make to compile
 
 
-##demo api
+#### demo api
 
 ```
 GET /api/5566
@@ -51,6 +51,7 @@ response:
 ```
 5566 is good
 ```
+
 
 
 
@@ -73,6 +74,8 @@ this is job result : 55
 ```
 
 
+
+
 ```
 POST /api/jobToIPC
 ```
@@ -93,6 +96,8 @@ Message received!
 '''
 
 
+
+
 ```
 POST /api/jobToSocket
 ```
@@ -109,7 +114,8 @@ Server received: from simple web server ...
 
 
 
-web page
+
+#### web page
 
 the following link would lead to corresponsd webpage, or it would show a 404 not found page
 ```
