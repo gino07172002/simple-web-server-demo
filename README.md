@@ -1,11 +1,11 @@
 
-#I always use cesanta's mongoose web server ( not MongoDB DB ) as my application web UI server , it is really good , why not trying to write one myself?
+# I always use cesanta's mongoose web server ( not MongoDB DB ) as my application web UI server , it is really good , why not trying to write one myself?
 
 
 this demo shows one possible Implementation of web server by linux's system call and c++ method
 
 
-##program architecture
+## program architecture
 
 to make story more complicated we has a main socket loop to waiting for web requests, when receiving the request are immediately assign to a thread-pool, then the socket loop continue to wait other coming request.
 
@@ -43,7 +43,7 @@ when the handler completed the task either successful of fail, the handler retur
      +--------------------------------------------------------------------------------------------------------------------+
 
 
-#install
+# install
 
 go to the folder with makefile
 
@@ -148,7 +148,7 @@ http://0.0.0.0:8080/page3.html
 
 
 
-##p.s.
+## p.s.
 
 The main structure of the TCP select connection code and thread-pool is writed by ChatGPT , I modified it to fit web server purpose. Thanks to ChatGPT!
 
