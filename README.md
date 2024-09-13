@@ -68,14 +68,14 @@ curl --location --request POST 'http://0.0.0.0:8080/api/jobInThread' --header 'C
 ```
 
 response:
-'''
+```
 this is job result : 55
-'''
+```
 
 
-'''
+```
 POST /api/jobToIPC
-'''
+```
 
 desription:
 
@@ -83,9 +83,9 @@ This api demo pass the task to a exist working thread in the ,  the number ++ ev
 
 
 request:
-'''
+```
 curl --location --request POST 'http://0.0.0.0:8080/api/jobToIPC' --header 'Content-Type: text/plain' --data-raw 'hi'
-'''
+```
 
 response:
 '''
@@ -93,26 +93,26 @@ Message received!
 '''
 
 
-'''
+```
 POST /api/jobToSocket
-'''
+```
 
 request:
-'''
+```
 curl --location --request POST 'http://0.0.0.0:8080/api/jobToIPC' --header 'Content-Type: text/plain' --data-raw 'hi'
-'''
+```
 
 response:
-'''
+```
 Server received: from simple web server ... 
-'''
+```
 
 
 
 web page
 
 the following link would lead to corresponsd webpage, or it would show a 404 not found page
-'''
+```
 http://0.0.0.0:8080/index.html
 
 http://0.0.0.0:8080/page1.html
@@ -120,7 +120,7 @@ http://0.0.0.0:8080/page1.html
 http://0.0.0.0:8080/page2.html
 
 http://0.0.0.0:8080/page3.html
-'''
+```
 
 
 
