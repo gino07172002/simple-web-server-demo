@@ -34,6 +34,8 @@ all of them can directly use make to compile
 
 #### demo api
 
+
+###### simple hello
 ```
 GET /api/5566
 ```
@@ -54,7 +56,7 @@ response:
 
 
 
-
+###### send job to thread in the program
 ```
 POST /api/jobInThread
 ```
@@ -75,7 +77,7 @@ this is job result : 55
 
 
 
-
+###### send job to ipc to other process
 ```
 POST /api/jobToIPC
 ```
@@ -96,7 +98,7 @@ Message received!
 '''
 
 
-
+###### send job to socket to other ip
 
 ```
 POST /api/jobToSocket
